@@ -34,11 +34,13 @@ def retrieve_element_from_index(array, index_number)
 end
 
 def retrieve_first_element_from_array(array)
-  
+  result = array[0]
+  return result
 end
 
 def retrieve_last_element_from_array(array)
-  
+  result = array[-1]
+  return result
 end
 
 def update_element_from_index(array, index_number, element)
