@@ -4,12 +4,13 @@ def create_an_empty_array
 end
 
 def create_an_array
-  result = array = ["wow", "I", "am", "really"]
+  result = ["wow", "I", "am", "really"]
   return result
 end
 
 def add_element_to_end_of_array(array, element)
-  
+  result = array = ["wow", "I", "am", "really"]
+  return result
 end
 
 def add_element_to_start_of_array(array, element)
